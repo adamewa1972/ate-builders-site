@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+}
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #495057;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.call-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: none;
+}
+@media (max-width: 768px) {
+  .call-button {
+    display: block;
+  }
+}
+.testimonial {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 4px solid #28a745;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
